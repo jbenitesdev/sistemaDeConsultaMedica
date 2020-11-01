@@ -1,0 +1,3 @@
+const MODULE_NAME = 'Login.';
+
+export const EXECUTAR_LOGIN = `${MODULE_NAME}EXECUTAR_LOGIN`;

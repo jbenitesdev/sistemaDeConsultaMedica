@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.menu-logo {
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.topNavBar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.side-nav-bar {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.pro-sidebar {
+  display: inline-block;
+  position: fixed!important;
+}
+
+.default-div {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+  background-color: #0067B3!important;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+  background-color: #094680!important;
+}
+
+.pro-inner-item span.pro-item-content, .pro-inner-item span.pro-item-content a {
+  color: white;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+  border-right: 1px solid rgba(173, 173, 173, 0.2);
+}
+
+.pro-sidebar-header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav-bar {
+  display: flex;
+  background-color: #0067B3;
+  height: 81px;
+  text-align: left;
+  height: 80px;
+}
+
+.top-nav-bar-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #e6e6e6;
+  width: 83%;
+  margin-left: 17%;
+  /* height: 100%; */
+}
+
+.conteudo-principal {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 40px!important;
+}
+
+.logo-icon {
+  width: 85px;
+  height: 75px;
+}
+
+.router-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.div-title {
+  margin-left: -5%;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.span-title-initials {
+  color: white;
+  font-size: xx-large;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.span-title-full {
+  color: white;
+  margin-top: 13px;
+}
+
+.span-user {
+  color: white;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.span-user-title {
+  color: #b5b4b4;
+  font-size: 12px;
+}
+
+.user-placeholder {
+  width: 55px;
+  height: 55px;
+  margin-top: -5px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 5%;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.div-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-inferior {
+  justify-content: space-between;
+}
+
+.span-login {
+  margin-left: 36px;
+}
+
+.span-unidade {
+  margin-left: 25px;
+}
+
+.user-actions {
+  margin-left: 12px;
+}
+
+.top-container-login {
+  top: 81px;
+  left: 250px;
+  width: 400px;
+  height: 230px;
+  background: #0071BC 0% 0% no-repeat padding-box;
+  box-shadow: 7px 7px 20px #00000066;
+  border-radius: 24px 24px 48px 48px;
+  opacity: 1;
+  position: absolute;
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.bottom-container-login {
+  top: 155px;
+  left: 226px;
+  width: 400px;
+  height: 530px;
+  background: #0071BC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #00000066;
+  border-radius: 0px 0px 47px 47px;
+  opacity: 1;
+  position: relative;
+}
+
+.login-title {
+  top: 209px;
+  left: 188px;
+  width: 526px;
+  height: 182px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #EFF3F6;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 85px;
+  font-size: 50px;
+}
+
+.logo-text {
+  color: #EFF3F6;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  width: 615px;
+  margin-left: -25px;
+}
+
+.forget-password-btn {
+  background-color: #e0e0e0;
+}
+
+.div-conteudo {
+  display: flex;
+}
